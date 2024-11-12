@@ -1,10 +1,13 @@
 {
-  "name": "react-animate",
+  "homepage": "https://github.com/744anwar/react-animate.git",
+  "name": "react-api-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
